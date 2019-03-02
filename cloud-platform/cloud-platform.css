@@ -1,0 +1,150 @@
+.platform2 {
+  /*margin-top: 110px;*/
+  /*-webkit-box-shadow: -1px 23px 40px -4px #d3d3d3;*/
+  /*-moz-box-shadow: -1px 23px 40px -4px #d3d3d3;*/
+  /*-o-box-shadow: -1px 23px 40px -4px #d3d3d3;*/
+  /*-ms-box-shadow: -1px 23px 40px -4px #d3d3d3;*/
+  /*box-shadow: -1px 23px 40px -4px #d3d3d3;*/
+  /*    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);*/
+  padding-top: 80px;
+  padding-bottom: 100px;
+  /*    margin-bottom: 32px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+      height: 100%;
+  /*min-height: 685px;*/
+}
+
+.platform2:hover {
+  box-shadow: -1px -3px 30px -4px #d3d3d3;
+}
+
+.platform2 a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 55px;
+  display: inline-block;
+}
+
+.platform2 p {
+  text-align: left;
+}
+
+.platform2 h3 {
+  text-align: center;
+  text-transform: uppercase;
+  /*font-size: 42px;*/
+  font-family: 'montserratregular', sans-serif;
+}
+
+.platform2 h4 {
+  text-align: center;
+   text-decoration: underline;
+  padding-bottom: 45px;
+  /*font-size: 42px;*/
+  font-family: 'montserratregular', sans-serif;
+}
+
+
+.platform2 p {
+  font-family: 'montserratlight', sans-serif;
+  font-size: 16px;
+}
+
+.platform2 ul {
+    list-style-type: circle;
+    padding-left: 30px;
+}
+
+.platform2 li {
+  font-family: 'montserratlight', sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.small li {
+  font-size: 14px;
+}
+
+p.extra + ul {
+  display:none;
+}
+
+p.extra:hover {
+text-decoration: underline;
+cursor:pointer
+} 
+
+.platform2 .btn {
+  font-family: 'montserratregular', sans-serif;
+  background-color: #a0cf4d;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /*padding: 0;*/
+  position: absolute;
+  bottom: 30px;
+  padding: 15px 0;
+    /*right: 30px;*/
+  text-align: center;
+  width: 200px;
+}
+
+.platform2 .btn:hover {
+  border: none;
+  background-color: #a4d847;
+}
+.platform2 .btn:active {
+  background-color: #8bbd33;
+}
+
+.bg_green .btn {
+  background-color: white;
+    color: #5c5d61;
+}
+
+.bg_green .btn:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: -1px 23px 40px -4px rgba(50, 50, 50, 0.20);
+  -moz-box-shadow: -1px 23px 40px -4px rgba(50, 50, 50, 0.20);
+  -o-box-shadow: -1px 23px 40px -4px rgba(50, 50, 50, 0.20);
+  -ms-box-shadow: -1px 23px 40px -4px rgba(50, 50, 50, 0.20);
+  box-shadow: -1px 23px 40px -4px rgba(50, 50, 50, 0.25);
+}
+
+.bg_green .btn:active {
+  background-color: #f4f4f4;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.answer p, .quest p {
+    font-family: 'montserratlight', sans-serif;     
+    color: black;    
+    font-size: 16px;
+}
+
+.answer p {
+   padding-bottom:20px;
+}
+
+.qna p{
+    font-family: 'montserratregular', sans-serif;    
+    text-transform: uppercase;    
+    font-size: 18px; 
+    color:white;
+}
+
+
+boilsForm2 {
+/*   display:none; */
+}

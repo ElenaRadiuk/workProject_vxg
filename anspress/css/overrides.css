@@ -1,0 +1,328 @@
+#anspress {
+    font-family: montserratlight, sans-serif;
+    padding-bottom: 40px;
+}
+
+#ap-lists {
+    margin-top: 15px;
+}
+
+.banner-aq {
+    background-color: #f6f6f6;
+    padding-bottom: 35px;
+}
+
+.banner-aq h2 {
+    padding: 65px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    background: #edeff2;
+    color: #818181;
+    outline: 0;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    box-shadow: none!important;
+    border: 1px solid #E9E9E9;
+    min-height: 45px;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 36px;
+    padding: 10px;
+    width: 100%;
+}
+
+#ap-search-form input[type="text"] {
+    margin-top: 0;
+}
+
+#ap-search-form .ap-search-btn {
+    float: right;
+    height: 36px;
+    margin-left: 10px;
+}
+
+#anspress #ap-filter-reset {
+    line-height: 14px;
+}
+
+.topcommunity-aq {
+    background-color: #f6f6f6;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.topcommunity-aq a {
+    color: black;
+}
+
+.topcommunity-aq a:hover, .topcommunity-aq a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.topcommunity-aq h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.topcommunity-aq .fa {
+   font-size: 45px;
+   transform: translateY(50%);
+   color: white;
+}
+
+.topcommunity-aq span {
+    display: inline-block;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.topcommunity-aq .ask_block, .topcommunity-aq .answer_block {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 45px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.wrap_icon {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105px;
+    height: 105px;
+    background-color: #a0cf4d;
+    border-radius: 50%;
+}
+
+.questions_ask {
+    max-width: 800px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.questions_ask .anspress {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.questions_aq {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.questions_aq h1{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#anspress .ap-list-head .ap-btn-ask {
+    height: 44px;
+    line-height: 30px;
+}
+
+#ap-search-form .ap-search-btn {
+    height: 44px;
+}
+
+.ap-cradit, .ap-login {
+    display: none;
+}
+
+
+body.archive {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body.archive section{
+    flex: 1;
+}
+
+body.archive section .anspress {
+    max-width: 1170px;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+
+
+#anspress .ap-question-meta>.ap-display-meta-item.subscribe {
+    display: none;
+}
+
+
+.btn-back {
+    display: inline-block;
+    margin-left: 15px;
+    background-image: linear-gradient(#fff, #fcfcfc);
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.6;
+    text-decoration: none;
+    vertical-align: middle;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.btn-back a{
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #5d5e61;
+    cursor: pointer;
+}
+
+.btn-back a:active, .btn-back a:hover {
+    text-decoration: none;
+    color: #5d5e61;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+
+/*single*/
+
+.single-question .ap-list-head .ap-btn-ask {
+    background: #8bc34a;
+    border-radius: 2px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 7px 20px;
+    text-decoration: none;
+    height: 44px;
+    line-height: 30px;
+}
+
+.single-question #ap-filters {
+    display: none;
+}
+
+.single-question .questions_aq {
+    margin-top: 25px;
+}
+
+.single-question .ap-list-head {
+    padding: 15px 15px 15px 15px;
+    border: solid 1px #ddd;
+    margin-bottom: 10px;
+}
+
+.contact_main_photo.community_pages {
+    position: relative;
+    max-height: 540px; /*630*/
+}
+
+.contact_main_photo.community_pages .for_gradient {
+    position: static;
+}
+
+.contact_main_photo.community_pages .text_contact_main_photo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 63%;
+    margin-top: -100px;
+    bottom: 10%;
+    z-index: 100;
+}
+
+.contact_main_photo.community_pages h4 {
+    font-size: 32px;
+}
+
+@media (max-width: 480px) {
+    .ap-btn.ap-search-btn {
+        margin-top: 5px;
+    }
+    #ap-search-form .ap-search-input {
+        font-size: 10px;
+        padding: 3px;
+    }
+    .single-question .ap-list-head .ap-btn-ask {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-aq h2 {
+        font-size: 30px;
+        padding: 30px 0;
+    }
+    .banner-aq {
+         padding-bottom: 0;
+    }
+    .contact_main_photo.community_pages h4 {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    .contact_main_photo.community_pages .text_contact_main_photo {
+        top: 40%;
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .contact_main_photo.community_pages h4 {
+        font-size: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact_main_photo.community_pages .text_contact_main_photo {
+        top: 70%; /*45*/
+    }
+    .contact_main_photo.community_pages {
+        max-height: 305px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1109px) {
+    .contact_main_photo.community_pages {
+        max-height: 325px;
+    }
+    .contact_main_photo.community_pages h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1110px) and (max-width: 1450px) {
+    .contact_main_photo.community_pages {
+        max-height: 400px;
+    }
+    .contact_main_photo.community_pages .text_contact_main_photo {
+        margin-top: -100px;
+    }
+}
+
+@media (min-width: 1451px) and (max-width: 1570px) {
+    .contact_main_photo.community_pages {
+        max-height: 450px;
+    }
+    .contact_main_photo.community_pages .text_contact_main_photo {
+        margin-top: -110px;
+    }
+}
+
